@@ -1,0 +1,8 @@
+[run]
+source = authentication/,todos/,
+omit =
+    */virtualenvs/*             # Omit virtual environment files
+    */site-packages/*          # Omit third-party packages
+    tests/*                     # Omit test files
+    */migrations/*              # Omit migration files
+    */__init__.py              # Omit __init__.py files 
