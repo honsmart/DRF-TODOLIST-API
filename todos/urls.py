@@ -1,7 +1,7 @@
 from django.urls import path
-from todos.views import CreateTodoAPIView
+from todos.views import TodosAPIView
 
 
 urlpatterns = [
-    path('create', CreateTodoAPIView.as_view(), name="create-todo")
+     path('', TodosAPIView.as_view(), name="todo")
 ]
