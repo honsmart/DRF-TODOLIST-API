@@ -34,6 +34,9 @@ AUTH_USER_MODEL="authentication.User"
 # Application definition
 
 INSTALLED_APPS = [
+    # 'jazzmin',
+    'adminlte3',
+    'adminlte3_theme',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -42,10 +45,12 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'drf_yasg',
+    'templates',
     'authentication',
     'django_filters',
     'todos'
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
